@@ -1,5 +1,4 @@
 @import "variables.scss";
-@import "mixins.scss";
 /* ----- COMMON STYLES START ----- */
 *,
 ::before,
@@ -35,7 +34,7 @@ img {
   object-fit: cover;
 }
 body {
-  font-family: "TTHoves", system-ui, -apple-system, "Segoe UI", "Roboto",
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", "Roboto",
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 12px;
