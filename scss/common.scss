@@ -61,7 +61,7 @@ a {
   font-size: 64px;
 }
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -69,6 +69,7 @@ a {
 .nav {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .logo {
   margin-left: -10px;
