@@ -6,7 +6,9 @@
     font-weight: 700;
     text-decoration: underline;
     color: hsl(49, 100%, 22%);
-    &:hover {
+    &:hover,
+    &:focus-within {
+      color: $brand_color;
     }
   }
 }

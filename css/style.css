@@ -249,6 +249,10 @@ a {
   text-decoration: underline;
   color: #705c00;
 }
+.menu__link:hover, .menu__link:focus-within {
+  color: #a1d336;
+}
+
 .btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -666,6 +670,7 @@ a {
   }
   .header__menu {
     padding: 30px 40px;
+    margin-top: 0;
   }
 
   .hero__title {
@@ -702,6 +707,72 @@ a {
 @media (min-width: 992px) {
   .container {
     max-width: 990px;
+  }
+
+  .section-title {
+    font-size: 52px;
+    margin-bottom: 60px;
+  }
+
+  .header__logo {
+    padding: 14px 40px;
+  }
+  .header__logo-img {
+    width: 283px;
+    height: 89px;
+  }
+  .header__menu {
+    padding: 29px 83px;
+  }
+
+  .hero {
+    padding-bottom: 100px;
+  }
+  .hero__info-img {
+    width: 506px;
+    height: 320px;
+    position: absolute;
+    left: calc(50% - 266px);
+    bottom: 68px;
+    z-index: 10;
+  }
+  .hero__offer {
+    width: 27%;
+  }
+
+  .about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: 50% 50%;
+  }
+
+  .about-slider__wrap {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .about-slider__slide {
+    max-width: 305px;
+    min-height: 439px;
+  }
+  .about-slider__slide-info {
+    min-height: 218px;
+  }
+  .about-slider__slide-title {
+    font-size: 22px;
+    margin-bottom: 19px;
+  }
+  .about-slider__slide-text {
+    font-size: 18px;
+  }
+
+  .results {
+    padding-top: 100px;
+    padding-bottom: 197px;
+  }
+  .results__content-text {
+    font-size: 18px;
+    text-align: left;
   }
 }
 @media (min-width: 1200px) {

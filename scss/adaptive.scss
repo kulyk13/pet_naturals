@@ -64,6 +64,7 @@
     }
     &__menu {
       padding: 30px 40px;
+      margin-top: 0;
     }
   }
   .hero {
@@ -100,6 +101,72 @@
 @media (min-width: 992px) {
   .container {
     max-width: 990px;
+  }
+  .section-title {
+    font-size: 52px;
+    margin-bottom: 60px;
+  }
+  .header {
+    &__logo {
+      padding: 14px 40px;
+      &-img {
+        width: 283px;
+        height: 89px;
+      }
+    }
+    &__menu {
+      padding: 29px 83px;
+    }
+  }
+  .hero {
+    padding-bottom: 100px;
+    &__info {
+      &-img {
+        width: 506px;
+        height: 320px;
+        position: absolute;
+        left: calc(50% - 266px);
+        bottom: 68px;
+        z-index: 10;
+      }
+    }
+    &__offer {
+      width: 27%;
+    }
+  }
+  .about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-position: 50% 50%;
+  }
+  .about-slider {
+    &__wrap {
+      justify-content: space-between;
+    }
+    &__slide {
+      max-width: 305px;
+      min-height: 439px;
+      &-info {
+        min-height: 218px;
+      }
+      &-title {
+        font-size: 22px;
+        margin-bottom: 19px;
+      }
+      &-text {
+        font-size: 18px;
+      }
+    }
+  }
+  .results {
+    padding-top: 100px;
+    padding-bottom: 197px;
+    &__content {
+      &-text {
+        font-size: 18px;
+        text-align: left;
+      }
+    }
   }
 }
 // X-Large devices (large desktops, 1200px and up)
