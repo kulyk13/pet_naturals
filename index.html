@@ -39,7 +39,7 @@
     <main class="main">
         <section class="hero">
             <div class="hero__wrap container">
-                <h1 class="hero__title">Pet Naturals of Vermont, Calming, For Cats</h1>
+                <h1 class="hero__title section-title">Pet Naturals of Vermont, Calming, For Cats</h1>
                 <div class="hero__info">
                     <img src="img/hero-cats.webp" alt="Pet naturals food" class="hero__info-img" width="287"
                         height="183">
@@ -61,15 +61,19 @@
                         </ul>
                     </div>
                     <article class="timer hero__timer">
-                        <h2 class="timer__title hero__timer-title">Time left</h2>
-                        <span id="time" class="timer__time hero__timer-time">
-                            <span id="timerHours"></span>
-                            <span id="timerMinutes"></span>
-                            <span id="timerSeconds"></span>
-                        </span>
-                        <div class="timer__price-block hero__price-block">
-                            <span class="timer__price timer__price--disable ">120uah</span>
-                            <span class="timer__price timer__price--active">60uah</span>
+                        <div class="timer__top hero__timer-top">
+                            <h2 class="timer__title hero__timer-title">Time left</h2>
+                            <span id="timer" class="timer__time hero__timer-time">
+                                <span id="timerHours">2</span>:
+                                <span id="timerMinutes">00</span>:
+                                <span id="timerSeconds">00</span>
+                            </span>
+                            <div class="timer__price-block hero__price-block">
+                                <span
+                                    class="timer__price hero__timer-price timer__price--disable hero__timer-price--disable">120uah</span>
+                                <span
+                                    class="timer__price hero__timer-price  timer__price--active hero__timer-price--active">60uah</span>
+                            </div>
                         </div>
                         <form action="#" method="post" class="form timer__form">
                             <label class="form__item timer__form-item">
@@ -77,13 +81,13 @@
                                     class="form__input timer__form-input">
                             </label>
                             <label class="form__item timer__form-item">
-                                <input type="text" name="phone" id="phone" placeholder="Name"
+                                <input type="text" name="phone" id="phone" placeholder="Phone"
                                     class="form__input timer__form-input">
                             </label>
                             <button type="submit" class="btn form__btn timer__form-btn">Order</button>
                         </form>
-                        <p class="timer__date">
-                            Oreder date: <span id="currentDate">17.11.2021</span>
+                        <p class="timer__date hero__timer-date">
+                            Order date: <span id="currentDate">17.11.2021</span>
                         </p>
                     </article>
                 </div>
@@ -91,7 +95,7 @@
         </section>
         <section class="about">
             <div class="about__wrap container">
-                <h2 class="about__title">From the manufacturer</h2>
+                <h2 class="about__title section-title">From the manufacturer</h2>
                 <div class="swiper about-slider">
                     <div class="swiper-wrapper about-slider__wrap">
                         <article class="swiper-slide about-slider__slide">
@@ -130,7 +134,7 @@
         </section>
         <section class="results">
             <div class="results__wrap container">
-                <h2 class="results__title">Best Uses for Calming Chews</h2>
+                <h2 class="results__title section-title">Best Uses for Calming Chews</h2>
                 <div class="results__content">
                     <p class="results__content-text">
                         Car rides. Vet visits. Thunderstorms. Boarding. Parties. These are just a handful of times when

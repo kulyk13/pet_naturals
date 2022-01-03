@@ -3,8 +3,9 @@
   align-items: center;
   justify-content: center;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
-  background-color: $btn_color_light;
+  background-color: $btn_color;
+  border-radius: 30px;
+  font-size: 30px;
   &:hover,
   &:focus-within {
     background-color: $btn_color;

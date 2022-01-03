@@ -37,8 +37,8 @@ body {
   font-family: "Roboto", system-ui, -apple-system, "Segoe UI", "Roboto",
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 1;
   background-color: $bg_color;
   color: $text_color;
@@ -56,9 +56,8 @@ a {
   margin: -1px;
 }
 .section-title {
-  color: $text_color_light;
-  font-weight: 300;
-  font-size: 64px;
+  font-size: 26px;
+  text-align: center;
 }
 .container {
   max-width: 100%;
@@ -71,65 +70,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
 }
-.logo {
-  margin-left: -10px;
-}
 @import "menu.scss";
 @import "button.scss";
 @import "form.scss";
-[class^="icon-"],
-[class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.icon-close:before {
-  content: "\e90b";
-}
-.icon-menu:before {
-  content: "\e90a";
-}
-.icon-telephone:before {
-  content: "\e902";
-}
-.icon-geo:before {
-  content: "\e903";
-}
-.icon-mail:before {
-  content: "\e905";
-}
-.icon-arrow:before {
-  content: "\e900";
-}
-.icon-check:before {
-  content: "\e901";
-}
-.icon-facebook:before {
-  content: "\e904";
-  color: #fff;
-}
-.icon-linkedin:before {
-  content: "\e906";
-  color: #fff;
-}
-.icon-phone:before {
-  content: "\e907";
-  color: #fff;
-}
-.icon-pinterest:before {
-  content: "\e909";
-  color: #fff;
-}
-.icon-twitter:before {
-  content: "\e908";
-  color: #fff;
-}
 /* ----- COMMON STYLES END ----- */
