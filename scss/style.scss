@@ -43,6 +43,9 @@
   &__info {
     display: flex;
     flex-direction: column;
+    &-img {
+      margin: 0 auto;
+    }
   }
   &__offer {
     &-text {
@@ -133,7 +136,9 @@
       }
     }
     .form {
-      margin-bottom: 30px;
+      &__btn {
+        margin-bottom: 30px;
+      }
     }
     &-date {
       font-weight: 400;
@@ -204,6 +209,9 @@
         height: 10px;
         background-color: #f6e791;
         opacity: 1;
+        &:nth-child(n + 2) {
+          margin-left: 15px;
+        }
         &-active {
           background-color: #a0cf67;
         }
@@ -212,23 +220,40 @@
   }
 }
 /* ----- ABOUT END ----- */
-/* -----  START ----- */
-
-/* -----  END ----- */
-/* -----  START ----- */
-
-/* -----  END ----- */
-/* -----  START ----- */
-
-/* -----  END ----- */
-/* ----- FOOTER START ----- */
-.footer {
-  padding-top: 60px;
-  padding-bottom: 24px;
+/* ----- RESULTS START ----- */
+.results {
+  padding-top: 50px;
+  padding-bottom: 160px;
+  background-image: linear-gradient(
+      180deg,
+      hsl(209, 62%, 93%) 0%,
+      hsla(208, 62%, 69%, 0) 59.37%,
+      hsla(0, 0%, 0%, 0.25) 100%
+    ),
+    url(../img/grass.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  &__title {
+    color: #537d13;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-img {
+      margin-bottom: 30px;
+    }
+    &-text {
+      font-size: 14px;
+      line-height: 1.64;
+      font-weight: 400;
+      text-align: center;
+      border: 20px solid #d4df6d;
+      border-radius: 10px;
+      padding: 0 13px;
+    }
+  }
 }
-.copyright {
-  font-size: 12px;
-}
-/* ----- FOOTER END ----- */
+/* ----- RESULTS END ----- */
 
 @import "adaptive.scss";

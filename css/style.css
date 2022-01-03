@@ -378,6 +378,9 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.hero__info-img {
+  margin: 0 auto;
+}
 .hero__offer-text {
   font-size: 18px;
   line-height: 1.89;
@@ -469,7 +472,7 @@ a {
 .hero__timer-price.hero__timer-price--active {
   font-size: 36px;
 }
-.hero__timer .form {
+.hero__timer .form__btn {
   margin-bottom: 30px;
 }
 .hero__timer-date {
@@ -547,28 +550,52 @@ a {
   background-color: #f6e791;
   opacity: 1;
 }
+.about-slider .swiper-pagination-bullets .swiper-pagination-bullet:nth-child(n+2) {
+  margin-left: 15px;
+}
 .about-slider .swiper-pagination-bullets .swiper-pagination-bullet-active {
   background-color: #a0cf67;
 }
 
 /* ----- ABOUT END ----- */
-/* -----  START ----- */
-/* -----  END ----- */
-/* -----  START ----- */
-/* -----  END ----- */
-/* -----  START ----- */
-/* -----  END ----- */
-/* ----- FOOTER START ----- */
-.footer {
-  padding-top: 60px;
-  padding-bottom: 24px;
+/* ----- RESULTS START ----- */
+.results {
+  padding-top: 50px;
+  padding-bottom: 160px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e2eef8), color-stop(59.37%, rgba(127, 179, 225, 0)), to(rgba(0, 0, 0, 0.25))), url(../img/grass.webp);
+  background-image: linear-gradient(180deg, #e2eef8 0%, rgba(127, 179, 225, 0) 59.37%, rgba(0, 0, 0, 0.25) 100%), url(../img/grass.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+}
+.results__title {
+  color: #537d13;
+}
+.results__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.results__content-img {
+  margin-bottom: 30px;
+}
+.results__content-text {
+  font-size: 14px;
+  line-height: 1.64;
+  font-weight: 400;
+  text-align: center;
+  border: 20px solid #d4df6d;
+  border-radius: 10px;
+  padding: 0 13px;
 }
 
-.copyright {
-  font-size: 12px;
-}
-
-/* ----- FOOTER END ----- */
+/* ----- RESULTS END ----- */
 /* ----- ADAPTIVE START ----- */
 @media (min-width: 576px) {
   .container {
