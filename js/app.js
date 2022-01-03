@@ -25,6 +25,13 @@ const aboutSlider = new Swiper('.about-slider', {
                 el: '.swiper-pagination',
                 type: 'bullets',
             },
+        },
+        576: {
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
         }
     },
 })

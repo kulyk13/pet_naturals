@@ -5,6 +5,49 @@
   .container {
     max-width: 570px;
   }
+  .header {
+    &__logo {
+      padding: 14px 40px;
+      &-img {
+        width: 283px;
+        height: 89px;
+      }
+    }
+    &__menu {
+      padding: 29px 83px;
+      margin-top: 15px;
+      &-item {
+        &:nth-child(n + 2) {
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+  .hero {
+    padding-top: 270px;
+    margin-top: -270px;
+    &__info {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      &-img {
+        width: 480px;
+        height: 300px;
+      }
+    }
+    &__offer {
+      width: 40%;
+    }
+  }
+  .about-slider {
+    &__slide {
+      min-height: 470px;
+      &-info {
+        min-height: 250px;
+        padding-bottom: 20px;
+      }
+    }
+  }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
