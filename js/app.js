@@ -18,7 +18,7 @@ let timer = setInterval(function() {
 
 //Slider
 const aboutSlider = new Swiper('.about-slider', {
-    loop: true,
+    spaceBetween: 25,
     breakpoints: {
         320: {
             pagination: {
