@@ -32,7 +32,11 @@ const aboutSlider = new Swiper('.about-slider', {
                 el: '.swiper-pagination',
                 type: 'bullets',
             },
-        }
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+        },
     },
 })
 

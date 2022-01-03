@@ -54,6 +54,47 @@
   .container {
     max-width: 750px;
   }
+  .header {
+    padding-bottom: 15px;
+    &__nav {
+      justify-content: space-between;
+    }
+    &__logo {
+      padding: 14px 20px;
+    }
+    &__menu {
+      padding: 30px 40px;
+    }
+  }
+  .hero {
+    &__title {
+      font-size: 52px;
+    }
+    &__info {
+      &-img {
+        width: 710px;
+        height: 417px;
+      }
+    }
+  }
+  .about-slider {
+    &__slide {
+      min-height: 481px;
+      &-info {
+        min-height: 266px;
+      }
+    }
+  }
+  .results {
+    &__content {
+      flex-direction: row;
+      justify-content: space-between;
+      &-img {
+        margin-bottom: 0;
+        order: 1;
+      }
+    }
+  }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
