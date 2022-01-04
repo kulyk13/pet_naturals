@@ -14,7 +14,15 @@ let timer = setInterval(function() {
     } else {
         document.getElementById("timer").innerHTML = "Times Up!"
     }
-}, 1000)
+}, 1000);
+
+//Mask
+var elements = document.getElementsByClassName('js-phone');
+for (var i = 0; i < elements.length; i++) {
+  new IMask(elements[i], {
+    mask: '+{38}(000)000-00-00',
+  });
+};
 
 //Slider
 const aboutSlider = new Swiper('.about-slider', {
